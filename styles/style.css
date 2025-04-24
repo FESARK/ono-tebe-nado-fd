@@ -32,7 +32,7 @@ html {
 .header__links-list,
 .address,
 .footer__menu-list {
-  text-underline-offset: 4px
+  text-underline-offset: 3px
 }
 
 .header__links-list-item_no-bullit {
@@ -52,7 +52,7 @@ html {
 
 .address {
   min-width: 240px;
-  height: 98px;
+  font-size: 18px;
   font-style: normal;
   line-height: 24px;
   letter-spacing: 0;
@@ -135,6 +135,7 @@ html {
   border: 1px solid #fff;
   width: 256px;
   height: 51px;
+  cursor: pointer;
 }
 
 .lots {
@@ -149,7 +150,7 @@ html {
   line-height: 100%;
   letter-spacing: 0;
   text-transform: uppercase;
-  margin: 0 891px 31px 40px;
+  margin: 0 0 31px 40px;
 }
 
 .lots__card-list {
@@ -162,7 +163,6 @@ html {
 .lots__card-list-item {
   width: 334px;
   min-height: 596px;
-
 }
 
 .card-link,
@@ -181,24 +181,20 @@ html {
   position: relative;
   z-index: -2;
   color: #fff;
+  background-size: cover;
+  background-position: center;
 }
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 .card__title {
@@ -236,7 +232,6 @@ html {
   display: grid;
   grid-template-columns: 334px 1fr;
   width: 1052px;
-  min-height: 595px;
   margin: 0 24px 180px;
 }
 
@@ -260,6 +255,7 @@ html {
   min-height: 459px;
   align-self: end;
   margin-left: 25px;
+  margin-top: 136px;
 }
 
 .about__title {
@@ -291,7 +287,6 @@ html {
 
 .footer__address {
   padding-left: 51px;
-  letter-spacing: 1px;
 }
 
 .footer_menu {
@@ -301,6 +296,7 @@ html {
  line-height: 114%;
  letter-spacing: 0;
  text-align: center;
+ margin: 0px 177px 115px;
 }
 
 .footer__menu-link_active {
